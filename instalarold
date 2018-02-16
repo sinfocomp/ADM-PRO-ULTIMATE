@@ -85,8 +85,7 @@ echo -e "${cor[2]} ${txt[$[1+($RANDOM%100)]]}"
 echo ""
 sleep 4s
 fi
-sleep4
-exit
+sleep 4s
 if [ -d /etc/adm-lite ]; then
 rm -rf /etc/adm-lite
 fi
